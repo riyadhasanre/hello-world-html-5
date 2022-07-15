@@ -1,0 +1,43 @@
+
+body{
+    background-color:#ececec;
+}
+h1{
+    background-color: red;
+}
+ 
+h1:hover{
+    color:aqua;
+    cursor:pointer;
+}
+.box:focus{
+    color:green;
+   font-weight:700;
+}
+li:first-child{
+    color:;
+}
+li:last-child{
+    background-color:;
+}
+
+li:nth-child(2n+1){
+    background-color:red;
+}
+h3::before{
+content:  'hello ';
+}
+.do::after{
+    content:' valo';
+}
+.swiming div{
+    border:1px dashed blue;
+    width:200px;
+    position: relative;
+
+}
+#ring{
+    position: absolute;
+    left:20px;
+    top:50px;
+}
