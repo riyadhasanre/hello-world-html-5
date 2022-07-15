@@ -41,3 +41,10 @@ content:  'hello ';
     left:20px;
     top:50px;
 }
+td,th{
+    border:1px solid black;
+    padding: 0 10px;
+}
+table{
+    border-collapse: collapse;
+}
