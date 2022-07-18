@@ -10,10 +10,18 @@ nav li a{
     padding:0px 10px;
     
 }
-nav ul{
+nav > ul > li:hover >ul{
+    display:block;
+}
+nav > ul{
     display: flex;
     
 }
 nav li :hover{
     background-color: #f5c7c7;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
 }
